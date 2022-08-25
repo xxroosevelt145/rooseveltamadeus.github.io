@@ -1,0 +1,19 @@
+body {
+    background: url('vert.jpg');
+    width: 736;
+    height: 1308;
+}
+
+
+#pe{
+    background-color: lightgreen;
+}
+#pq{
+    background-color: lightblue;
+}
+#pr{
+    background-color: #ffa995;
+}
+#pu{
+    background-color: cornflowerblue;
+}
