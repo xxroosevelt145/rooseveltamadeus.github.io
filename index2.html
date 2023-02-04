@@ -2,76 +2,45 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="initial-scale=1.0, user-scalable=no"  />
-
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hello</title>
-     <link href="https://fonts.googleapis.com/css2?family=Signika:wght@700&display=swap" rel="stylesheet">
-    <style type="text/css">
+    <link href="https://fonts.googleapis.com/css2?family=Signika:wght@700&display=swap" rel="stylesheet">
+    <style>
         body {
             background-image: url('movinf.gif');
         }
-       #hq {
-           background-color: lavenderblush;
-           text-align: center;
-           font-size: 30px;
-           color: black;
-           border-style: solid;
-           border-color: black;
-       }
-       
-#hw {
-    background-color: #ff7f6a;
-    font-size: 15px;
-    text-align: center;
-    color: black;
-    border-style: solid;
-    border-color: black;
-}
-#hr {
-    background-color: #bfeaff;
-    background-repeat: no-repeat;
-    font-size: 30px;
-    color: black;
-    
-    
-    
-    
-}
-#ht {
-    color: white;
-    border-style: double;
-    font-size: 15px;
-    
-}
-#hg {
-    background-color: #80c1ff;
-    border-style: solid;
-    color: black;
-}
 
+        .btn {
+            display: inline-block;
+            padding: 1em 2em;
+            background-color: #80c1ff;
+            color: black;
+            border: 1px solid black;
+            text-decoration: none;
+            font-size: 30px;
+            border-radius: 5px;
+            text-align: center;
+            margin: 1em;
+        }
 
-        
-       
-      
-        
+        .header {
+            text-align: center;
+            color: white;
+            font-size: 15px;
+            border-bottom: 2px double white;
+            padding-bottom: 1em;
+            margin-bottom: 2em;
+        }
     </style>
 </head>
 <body>
-    <br />
-   <center><img src="osmenalogo.png" width="90px" height="90px">
-    <br />
-    <br />
-    <h2 id="ht" style="font-family: Arial ;"><tt>WELCOME TO GRADE 10 SECTION ANTHEROSTELE! JUST SELECT AN ACTION</tt></h2>
-    <br />
-  <a href="seeadviser.html" style="text-decoration: none;"><h1 id="hr"><tt>SEE ADVISER</tt></h1></a>
-  <br />
-  <a href="index.html" style="text-decoration: none;"><h1 id="hq"><tt>SEE CLASSMATES</tt></h1></a>
-  <br>
-    <a href="grade10topic.html" style="text-decoration: none;"><h1 id="hg"><tt>SEE ALL TOPICS</tt></h1></a>
-    <br>
-    <a href="createdbyroosevelt.html" style="text-decoration: none;"><h1 id="hw"><tt>WHO CREATED THIS SITE?</tt></h1></a>
-  
-    
-      
+    <center>
+        <img src="osmenalogo.png" width="90px" height="90px">
+        <h2 class="header">WELCOME TO GRADE 10 SECTION ANTHEROSTELE! JUST SELECT AN ACTION</h2>
+        <a href="seeadviser.html" class="btn">SEE ADVISER</a>
+        <a href="index.html" class="btn">SEE CLASSMATES</a>
+        <a href="grade10topic.html" class="btn">SEE ALL TOPICS</a>
+        <a href="createdbyroosevelt.html" class="btn">WHO CREATED THIS SITE?</a>
+    </center>
 </body>
 </html>
